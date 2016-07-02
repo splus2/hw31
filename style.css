@@ -1,0 +1,136 @@
+body { padding: 0;
+ margin:0;
+ }
+
+.karkas { padding: 50px 200px 50px 100px}
+
+.logo{
+	margin:0 0 40px 0; display:block;
+}
+
+nav ul{
+/* font:13px;  font-family:"Open Sans"; */
+	background-color: #575757;
+	height: 40px;
+	margin-bottom: 30px;
+}
+
+nav  a{	
+					font:13px;  font-family:"Open Sans";
+					color: white;
+					height: 40px;
+					margin: 25px;
+					text-decoration: none;
+	}
+
+
+
+nav li:hover{
+					background: #424242	;
+					
+					}
+nav li{
+					display: inline-block;
+					width: 100px; 
+					padding-top: 10px;
+					padding-bottom: 10px;
+	}
+	
+.left-menu   {
+	
+	float: left;
+	background: white;
+	
+	padding: 0px;
+	width:220px;
+	height: 240px;
+	
+	
+}
+
+.left-menu li{
+			/*		border: 1px solid black; */
+			        font:13px;  font-family:"Open Sans";
+					
+					height: 30px;
+					padding: 0px 0px 0px 25px;
+					display: block;	
+					
+					}
+
+					.left-menu  a{	
+					color: #656363;
+					height: 40px;
+					margin: 0px;
+					text-decoration: none;
+	}
+
+.main-content	 {
+	overflow:hidden;
+        display: block;
+}
+					
+.left-menu li:hover{
+					padding-left: 50px;
+					font-weight: bold;
+					background: #f9f9f9;
+						}
+						
+.contentright {
+	width: 700px;
+	height: 600px;
+	margin-left:50px; 
+	float: right;
+	display: block;
+}
+
+.image {
+	display: block;
+	
+	
+	
+}
+
+.content-text{
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	font:13px;  font-family:"Open Sans";
+	color: #656363;
+	
+	
+}
+
+footer ul{
+/* font:13px;  font-family:"Open Sans"; */
+	background-color: #e1e1e1;
+	height: 40px;
+/*	margin-bottom: 30px; */
+}
+
+footer  a{	
+					font:13px;  font-family:"Open Sans";
+					color: black;
+					height: 40px;
+					margin: 25px;
+					text-decoration: none;
+	}
+
+
+
+footer li:hover{
+					text-decoration:underline;
+					
+					}
+footer li{
+					display: inline-block; 
+					width: 100px; 
+					padding-top: 10px;
+					padding-bottom: 10px;
+					
+	}
+ /* footer li:lastchild {
+	style="text-decoration: none;
+	padding-left: 290px;
+	width: 250px;
+} */
