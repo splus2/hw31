@@ -1,11 +1,22 @@
 body { padding: 0;
  margin:0;
+ background-color: #f9f9f9;
+
  }
 
-.karkas { padding: 50px 200px 50px 100px}
+.all-content { 
+         
+  width: 1050px;
+  height: 900px;
+  padding: 50px;
+  margin: 0  auto;
+  background-color: white; 
+
+         }
 
 .logo{
-	margin:0 0 40px 0; display:block;
+	margin:0; 
+        display:block;
 }
 
 nav ul{
@@ -66,6 +77,8 @@ nav li{
 	}
 
 .main-content	 {
+      width:  1050px;
+        height: 550px;
 	overflow:hidden;
         display: block;
 }
@@ -101,6 +114,9 @@ nav li{
 	
 }
 
+footer { padding-top:60px;}
+
+
 footer ul{
 /* font:13px;  font-family:"Open Sans"; */
 	background-color: #e1e1e1;
@@ -129,8 +145,11 @@ footer li{
 					padding-bottom: 10px;
 					
 	}
- /* footer li:lastchild {
-	style="text-decoration: none;
+
+
+footer li:last-child {
+
+	text-decoration: none; 
 	padding-left: 290px;
-	width: 250px;
-} */
+	width: 250px; 
+} 
