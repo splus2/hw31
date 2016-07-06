@@ -1,87 +1,56 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8"> 
-<link rel="stylesheet" type="text/css" href="style.css" /> 
-<title>lesson #3</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>lesson #3</title>
 </head>
-
 <body>
-<div class="all-content">
- 
-   <header>
-    	
-    <a href="/"><img src="logo.png"  width="80" height="40" alt="" class="logo"></a> 
-       
+    <div class="wrapper">
+        <header>
+            <a href="/" class="logo">
+            
+             <img src="logo.png" alt="" >
 
-        <nav>
-            <ul>
-            	
-                <li><a href="#">Главная</a></li>
-				<li><a href="#">Товары</a></style></li>
-				<li><a href="#">О_нас</a></li>
-				<li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
-  </header>
-
-  <div class="main-content">
-
-          
-      <div class="left-menu">
-           
-
-					<ul>
-					<li><a href="#">Ноутбуки</a></li>
-					<li><a href="#">Планшеты</a></li>
-					<li><a href="#">Телефоны</a></li>
-					<li><a href="#">Телевизоры</a></li>
-					<li><a href="#">Бытовая техника</a></li>
-					<li><a href="#">Автотовары</a></li>
-					</ul>
-          
-     </div>
-	  
-     <div class="contentright">
-				    <div class="image">
-						<img class="bicycle" src="bicycle1.jpg" width="679" height="400">
-					</div>
-					<div class="content-text">
-						Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.
-					</div>
-     </div>
-  </div>
-
-<footer>
-    
-       
-            <ul>
-            	
-                <li><a href="#">Главная</a></li>
-				<li><a href="#">Товары</a></style></li>
-				<li><a href="#">О_нас</a></li>
-				<li><a href="#">Контакты</a></li>
-                                <li>2014 &copy All rights reserved</li>  <!-- описание last-child в файле стилей -->
-
-          <!--      <li style="text-decoration: none; padding-left: 290px; width:290px;">2014 &copy All rights reserved</li> -->
-            </ul>
-        
-
-
-</footer>
-    
-
-</div> <!-- end of all-content -->
-
+            </a>
+            <nav class="header-nav">
+                <a href="#">Главная</a>
+                <a href="#" class="selected">Товары</a>
+                <a href="#">О_нас</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </header>
+        <div class="main-nav">
+            <a href="#">Ноутбуки</a>
+            <a href="#">Планшеты</a>
+            <a href="#" class="selected">Телефоны</a>
+            <a href="#">Телевизоры</a>
+            <a href="#">Бытовая техника</a>
+            <a href="#">Автотовары</a>
+        </div>
+        <div class="content">
+            <div class="bicycle">         
+                   <img src="bicycle1.jpg" alt="" >
+            
+            </div>
+            <div class="text-content">
+                <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. LoremI psum є,
+                   фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв
+                   шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять
+                   століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона
+                   популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset, які
+                   містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на
+                   кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.</p>
+            </div>
+        </div>
+        <footer class="footer">
+            <nav class="footer-nav">
+                <a href="#">Главная</a>
+                <a href="#" class="selected">Товары</a>
+                <a href="#">О_нас</a><a href="#">Контакты</a>
+            </nav>
+            <div class="copyrights">2014 &copy; All rights reserved</div>
+        </footer>
+    </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
